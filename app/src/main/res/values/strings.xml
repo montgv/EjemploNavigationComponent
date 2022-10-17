@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EjemploNavigationComponent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="texto_editTextInicio">Introduce un texto</string>
+    <string name="texto_editNumerico">Introduce un número</string>
+    <string name="texto_botonInicio">Segunda Pantalla</string>
+    <string name="texto_botonSegundo">Pantalla Final</string>
+    <string name="texto_botonFinal">Inicio</string>
+</resources>
