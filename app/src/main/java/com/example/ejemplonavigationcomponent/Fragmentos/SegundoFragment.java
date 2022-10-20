@@ -43,6 +43,11 @@ public class SegundoFragment extends Fragment {
         txt1.setText(getArguments().getString("texto"));
         txt2.setText(String.valueOf(getArguments().getInt("numero")));
 
-        
+        boton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_segundoFragment_to_finalFragment);
+            }
+        });
     }
 }
